@@ -1,0 +1,7 @@
+﻿services:
+  - type: web
+    name: spotcheckpro
+    env: node
+    plan: free
+    buildCommand: "cd server && npm install"
+    startCommand: "cd server && npm start"
